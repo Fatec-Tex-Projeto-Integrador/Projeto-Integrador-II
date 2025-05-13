@@ -14,9 +14,8 @@
 ## <b>Estrutura de pastas</b>
 
 <div>
-  -Raiz<br>
-  |<br>
-Raiz/
+  -Raiz/ <br>
+|<br>
 ├── Documentos/ <br>
 │   ├── Grupo 1/ <br>
 │   │   └── Template/ <br>
