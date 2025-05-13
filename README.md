@@ -28,9 +28,10 @@
   <b>Documentos</b>: Template da organização do projeto.
 <div>
 
-Raiz/
-├── Documentos/
-│   ├── Grupo 1/
-│   │   └── Template/
-└── README.md
+- **`Raiz/`**: 
+  - **`Documentos/`**:
+    - **`Grupo 1/`**:
+    - **`Template/`**: 
+
+
 
