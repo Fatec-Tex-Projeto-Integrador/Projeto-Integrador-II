@@ -14,11 +14,12 @@
 ## <b>Estrutura de pastas</b>
 
 
- - **`Raiz/`**: 
-|  - **`Documentos/`**:
-|   - **`Grupo 1/`**:
-|     - **`Template/`**:
-└── - **`README.md`**:
+- **`Raiz/`**: 
+  - **`Documentos/`**:
+    - **`Grupo 1/`**:
+      - **`Template/`**:
+- **`README.md`**:
+
 
   </p>
 <div>
