@@ -15,11 +15,11 @@
 
 <div>
   -Raiz/ <br>
-|<br>
-├── Documentos/ <br>
-│   ├── Grupo 1/ <br>
-│   │   └── Template/ <br>
-└── README.md <br>
+|        <br>
+├── Documentos/         <br>
+│   ├── Grupo 1/        <br>
+│   │   └── Template/   <br>
+└── README.md           <br>
 <div>
   </p>
 <div>
