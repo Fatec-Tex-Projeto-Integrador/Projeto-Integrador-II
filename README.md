@@ -14,12 +14,11 @@
 ## <b>Estrutura de pastas</b>
 
 <div>
-  -Raiz/ <br>
-|        <br>
-├── Documentos/         <br>
-│   ├── Grupo 1/        <br>
-│   │   └── Template/   <br>
-└── README.md           <br>
+ - **`Raiz/`**: 
+|  - **`Documentos/`**:
+|   - **`Grupo 1/`**:
+|     - **`Template/`**:
+└── - **`README.md`**: 
 <div>
   </p>
 <div>
@@ -28,10 +27,6 @@
   <b>Documentos</b>: Template da organização do projeto.
 <div>
 
-- **`Raiz/`**: 
-  - **`Documentos/`**:
-    - **`Grupo 1/`**:
-      - **`Template/`**: 
 
 
 
