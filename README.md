@@ -13,13 +13,13 @@
 
 ## <b>Estrutura de pastas</b>
 
-<div>
+
  - **`Raiz/`**: 
 |  - **`Documentos/`**:
 |   - **`Grupo 1/`**:
 |     - **`Template/`**:
-└── - **`README.md`**: 
-<div>
+└── - **`README.md`**:
+
   </p>
 <div>
   <b>README.MD</b>: Serve como guia e explicação geral sobre o projeto.
