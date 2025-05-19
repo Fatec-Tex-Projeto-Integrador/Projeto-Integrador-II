@@ -1,0 +1,47 @@
+#include "sdkconfig.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include <driver/gpio.h>
+#include <freertos/semphr.h>
+
+#define LED1 GPIO_NUM_2
+#define LED2 GPIO_NUM_4
+
+SemaphoreHandle_t semaforoLed;
+
+extern "C" {
+    void app_main(void);
+}
+
+void tarefaLed1(void *parametros) {
+    gpio_set_direction(LED1, GPIO_MODE_OUTPUT);
+    while (true) {
+        if (xSemaphoreTake(semaforoLed, (TickType_t) 5) == pdTRUE) {
+            gpio_set_level(LED1, true);
+            vTaskDelay(1000 / portTICK_PERIOD_MS);
+            gpio_set_level(LED1, false);
+            xSemaphoreGive(semaforoLed);
+            vTaskDelay(1000 / portTICK_PERIOD_MS);
+        }
+    }
+}
+
+void tarefaLed2(void *parametros) {
+    gpio_set_direction(LED2, GPIO_MODE_OUTPUT);
+    while (true) {
+        if (xSemaphoreTake(semaforoLed, (TickType_t) 5) == pdTRUE) {
+            gpio_set_level(LED2, true);
+            vTaskDelay(750 / portTICK_PERIOD_MS);
+            gpio_set_level(LED2, false);
+            xSemaphoreGive(semaforoLed);
+            vTaskDelay(750 / portTICK_PERIOD_MS);
+        }
+    }
+}
+
+void app_main() {
+    semaforoLed = xSemaphoreCreateMutex();
+    xSemaphoreGive(semaforoLed);
+    xTaskCreate(&tarefaLed1, "LED1", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+    xTaskCreate(&tarefaLed2, "LED2", configMINIMAL_STACK_SIZE, NULL, 1, NULL);
+}
