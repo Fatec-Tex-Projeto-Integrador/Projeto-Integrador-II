@@ -15,6 +15,7 @@
 ## <b>Estrutura de Pastas</b>
 
 
+<pre>
 Raiz/
 |
 |--> Documentos/
@@ -22,13 +23,12 @@ Raiz/
 |    |    |--> docs/
 |    |    |--> src/
 |    |    |--> assets/
-|    |
 |    |--> Entrega 2/
 |         |--> docs/
 |         |--> src/
 |         |--> assets/
-|
 |--> README.md
+</pre>
 
 
 ---
