@@ -38,9 +38,8 @@
 <b>assets/</b>: Imagens, vídeos e recursos visuais utilizados no projeto.
 
 
-<b>README.MD</b>: Serve como guia e explicação geral sobre o projeto.
+<b>README.md</b>: Serve como guia e explicação geral sobre o projeto.
 
-<b>Documentos</b>: Template da organização do projeto.
 
 <div>
 
