@@ -13,17 +13,35 @@
 
 ## <b>Estrutura de pastas</b>
 
-
-- **docs/**: Documentação do projeto (relatórios e etc.).
-- **src/**: Código-fonte.
-- **assets/**: Imagens e mídias utilizadas.
-
+- **Raiz/**: 
+  - **Documentos/**:
+    - **Grupo 1/**:
+      - **Template/**:
+      - **docs/**:
+      - **src/**:
+      - **assets/**:
+- **README.md**:
+  
   </p>
 <div>
-  
-  <b>README.MD</b>: Serve como guia e explicação geral sobre o projeto.
 
-  <b>Documentos</b>: Template da organização do projeto.
+<b>Documentos/</b>: Pasta central para armazenar todos os documentos institucionais e modelos que vão servir como guia para os alunos.
+
+<b>Grupo 1/</b>: Exemplo de pasta para um grupo de alunos. Todos os grupos devem seguir essa estrutura, trocando “Grupo 1” pelo nome real do grupo ou do projeto.
+
+<b>Template/</b>: Contém arquivos de exemplo que devem ser seguidos pelos demais grupos. Ex: README.md modelo, licenças, instruções, etc.
+
+<b>docs/</b>: Arquivos de documentação como relatórios, apresentações e etc..
+
+<b>src/</b>: Código-fonte do projeto.
+
+<b>assets/</b>: Imagens, vídeos e recursos visuais utilizados no projeto.
+
+
+<b>README.MD</b>: Serve como guia e explicação geral sobre o projeto.
+
+<b>Documentos</b>: Template da organização do projeto.
+
 <div>
 
 
