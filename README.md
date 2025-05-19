@@ -8,21 +8,19 @@
 </p>
 
 <div>
-    Lobby do projeto integrador Sistemas Embarcados 2025.
+    Essa organização foi criada com o objetivo de centralizar, padronizar e facilitar o acesso aos projetos desenvolvidos pelos alunos durante o Projeto Integrador II da FATEC.
 <div>
 
 ## <b>Estrutura de pastas</b>
 
 
-- **`Raiz/`**: 
-  - **`Documentos/`**:
-    - **`Grupo 1/`**:
-      - **`Template/`**:
-- **`README.md`**:
-
+- **docs/**: Documentação do projeto (relatórios e etc.).
+- **src/**: Código-fonte.
+- **assets/**: Imagens e mídias utilizadas.
 
   </p>
 <div>
+  
   <b>README.MD</b>: Serve como guia e explicação geral sobre o projeto.
 
   <b>Documentos</b>: Template da organização do projeto.
