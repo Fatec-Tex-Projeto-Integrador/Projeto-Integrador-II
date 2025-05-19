@@ -1,6 +1,5 @@
 # Projeto-Integrador-II
 
-
 <p align="center">
   <a href="https://fatecjd.edu.br/site/" target="_blank">
     <img src="https://github.com/user-attachments/assets/4d4f261a-c0ac-45fc-8d93-f0b775c48013" alt="FATEC" border="0">
@@ -8,41 +7,42 @@
 </p>
 
 <div>
-    Essa organização foi criada com o objetivo de centralizar, padronizar e facilitar o acesso aos projetos desenvolvidos pelos alunos durante o Projeto Integrador II da FATEC.
-<div>
+  Essa organização foi criada com o objetivo de centralizar, padronizar e facilitar o acesso aos projetos desenvolvidos pelos alunos durante o Projeto Integrador II da FATEC.
+</div>
 
-## <b>Estrutura de pastas</b>
+---
 
-- **Raiz/**: 
-  - **Documentos/**:
-    - **Grupo 1/**:
-      - **Template/**:
-      - **docs/**:
-      - **src/**:
-      - **assets/**:
-- **README.md**:
-  
-  </p>
-<div>
+## <b>Estrutura de Pastas</b>
 
-<b>Documentos/</b>: Pasta central para armazenar todos os documentos institucionais e modelos que vão servir como guia para os alunos.
+```
+Raiz/
+|
+|--> Documentos/
+|    |--> Entrega 1/
+|    |    |--> docs/
+|    |    |--> src/
+|    |    |--> assets/
+|    |
+|    |--> Entrega 2/
+|         |--> docs/
+|         |--> src/
+|         |--> assets/
+|
+|--> README.md
+```
 
-<b>Grupo 1/</b>: Exemplo de pasta para um grupo de alunos. Todos os grupos devem seguir essa estrutura, trocando “Grupo 1” pelo nome real do grupo ou do projeto.
+---
 
-<b>Template/</b>: Contém arquivos de exemplo que devem ser seguidos pelos demais grupos. Ex: README.md modelo, licenças, instruções, etc.
+## 📁 Descrição das Pastas
 
-<b>docs/</b>: Arquivos de documentação como relatórios, apresentações e etc..
+- <b>Documentos/</b>: Toda a documentação e os projetos dos grupos devem estar organizados aqui.
 
-<b>src/</b>: Código-fonte do projeto.
+- <b>Entrega 1/, Entrega 2/...</b>: Cada grupo deve criar sua própria pasta de entrega com esse padrão (Entrega 1, Entrega 2 etc.), contendo os arquivos do seu projeto.
 
-<b>assets/</b>: Imagens, vídeos e recursos visuais utilizados no projeto.
+- <b>docs/</b>: Arquivos de documentação como relatórios, cronogramas, apresentações, atas de reunião, entre outros.
 
+- <b>src/</b>: Código-fonte do projeto (backend, frontend, scripts, etc.).
 
-<b>README.md</b>: Serve como guia e explicação geral sobre o projeto.
+- <b>assets/</b>: Imagens, vídeos, mockups e demais recursos visuais utilizados no sistema.
 
-
-<div>
-
-
-
-
+- <b>README.md</b>: Arquivo guia e explicativo do projeto, contendo informações como: nome do projeto, integrantes, descrição, tecnologias utilizadas e instruções de execução.
