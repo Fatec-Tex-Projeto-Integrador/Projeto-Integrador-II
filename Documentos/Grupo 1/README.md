@@ -1,4 +1,4 @@
- # Grupo 1
+ # Grupo 1 (OHMIGOS)
  Toda a documentação do grupo 1 esta nesta pasta.
 
 Grupo composto pelos alunos :
