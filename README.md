@@ -37,7 +37,7 @@ Raiz/
 
 - <b>Documentos/</b>: Toda a documentação e os projetos dos grupos devem estar organizados aqui.
 
-- <b>Grupo 1/, Grupo 2/...</b>: Cada grupo deve criar sua própria pasta de entrega com esse padrão (Grupo 1, Grupo 2 etc.), contendo os arquivos do seu projeto.
+- <b>Grupo 1/, Grupo 2/...</b>: Possibilidade de cada grupo criar sua própria pasta de entrega com esse padrão (Grupo 1, Grupo 2 etc.), contendo os arquivos do seu projeto.
 
 - <b>docs/</b>: Arquivos de documentação como relatórios, cronogramas, apresentações, atas de reunião, entre outros.
 
